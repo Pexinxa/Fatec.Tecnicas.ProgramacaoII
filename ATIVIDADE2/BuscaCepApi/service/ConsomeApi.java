@@ -1,4 +1,4 @@
-package BuscaCepApi.service;
+package ATIVIDADE2.BuscaCepApi.service;
 
 import java.io.IOException;
 import java.net.URI;

@@ -1,11 +1,12 @@
-package BuscaCepApi.view;
+package ATIVIDADE2.BuscaCepApi.view;
 
-import BuscaCepApi.model.Endereco;
-import BuscaCepApi.service.ConsomeApi;  
 import java.util.ArrayList;
 import java.util.Scanner;
 
 import com.google.gson.Gson;
+
+import ATIVIDADE2.BuscaCepApi.model.Endereco;
+import ATIVIDADE2.BuscaCepApi.service.ConsomeApi;
 
 import java.io.IOException;
 

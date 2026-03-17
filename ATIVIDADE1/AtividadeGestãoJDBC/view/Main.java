@@ -1,8 +1,9 @@
-package AtividadeGestãoJDBC.view;
+package ATIVIDADE1.AtividadeGestãoJDBC.view;
 
-import AtividadeGestãoJDBC.db.DB;
-import AtividadeGestãoJDBC.model.Tarefa;
 import java.util.Scanner;
+
+import ATIVIDADE1.AtividadeGestãoJDBC.db.DB;
+import ATIVIDADE1.AtividadeGestãoJDBC.model.Tarefa;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

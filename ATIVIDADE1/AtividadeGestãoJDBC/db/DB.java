@@ -1,4 +1,4 @@
-package AtividadeGestãoJDBC.db;
+package ATIVIDADE1.AtividadeGestãoJDBC.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

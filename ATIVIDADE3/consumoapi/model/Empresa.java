@@ -1,4 +1,4 @@
-package consumoapi.model;
+package ATIVIDADE3.consumoapi.model;
 
 public class Empresa {
     private String nome;

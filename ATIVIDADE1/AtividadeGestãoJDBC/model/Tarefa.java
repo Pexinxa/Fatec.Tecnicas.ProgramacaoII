@@ -1,4 +1,4 @@
-package AtividadeGestãoJDBC.model;
+package ATIVIDADE1.AtividadeGestãoJDBC.model;
 
 import java.time.LocalDateTime;
 

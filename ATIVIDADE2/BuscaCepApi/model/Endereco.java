@@ -1,4 +1,4 @@
-package BuscaCepApi.model;
+package ATIVIDADE2.BuscaCepApi.model;
 
 public class Endereco {
     private String cep;
