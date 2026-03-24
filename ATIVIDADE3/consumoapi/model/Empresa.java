@@ -1,38 +1,55 @@
 package ATIVIDADE3.consumoapi.model;
 
+import com.google.gson.annotations.SerializedName;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Empresa {
-    private String nome;
+
     private String cnpj;
-    private String endereco;
 
-    public Empresa(String nome, String cnpj, String endereco) {
-        this.nome = nome;
-        this.cnpj = cnpj;
-        this.endereco = endereco;
-    }
+    @SerializedName("razao_social")
+    private String razaoSocial;
 
-    // Getters and Setters
-    public String getNome() {
-        return nome;
-    }
+    @SerializedName("nome_fantasia")
+    private String nomeFantasia;
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+    private String logradouro;
+
+    // O Gson preenche esta lista automaticamente com o array "qsa" do JSON
+    private List<Socio> qsa = new ArrayList<>();
+
+    // Construtor vazio necessário para o Gson instanciar o objeto
+    public Empresa() {}
 
     public String getCnpj() {
         return cnpj;
     }
 
-    public void setCnpj(String cnpj) {
-        this.cnpj = cnpj;
+    public String getRazaoSocial() {
+        return razaoSocial;
     }
 
-    public String getEndereco() {
-        return endereco;
+    public String getNomeFantasia() {
+        return nomeFantasia;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public String getLogradouro() {
+        return logradouro;
+    }
+
+    public List<Socio> getQsa() {
+        return qsa;
+    }
+
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "cnpj='"         + cnpj        + '\'' +
+                ", razaoSocial='"  + razaoSocial  + '\'' +
+                ", nomeFantasia='" + nomeFantasia + '\'' +
+                ", logradouro='"   + logradouro   + '\'' +
+                ", socios="        + qsa          +
+                '}';
     }
 }
